@@ -5,14 +5,14 @@ body {
 h1 {
   font-size: 50px;
 }
-#yellow {
+.yellow {
   color: yellow;
 }
 .width {
   width: 40%;
   float: left;
-  margin-left: 15px;
-  padding-left: 15px;
+  margin-left: 7%;
+  padding-left: 2%;
 }
 
 .width-img {
@@ -40,4 +40,29 @@ section {
   background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
+}
+.block {
+  box-shadow: 10px 10px 50px grey;
+  border-radius: 5px;
+  height: 250px;
+}
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+#full-stack {
+  border-left: 8px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+
+#baby-web {
+  border-left: 8px solid;
+  border-image: linear-gradient(180deg, blue, red);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
+  font-size: 12px;
 }
